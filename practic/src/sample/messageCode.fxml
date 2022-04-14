@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MessageCode">
+   <children>
+      <Label layoutX="164.0" layoutY="171.0" text="Ваш код:">
+         <font>
+            <Font name="Tw Cen MT" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="code" layoutX="253.0" layoutY="161.0" prefHeight="42.0" prefWidth="183.0" />
+      <Label layoutX="42.0" layoutY="263.0" prefHeight="42.0" prefWidth="538.0" text="Скопируйте код и введите его в поле &quot;Код&quot; в окне аторизации">
+         <font>
+            <Font name="Tw Cen MT" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
